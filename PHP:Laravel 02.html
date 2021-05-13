@@ -1,0 +1,57 @@
+①$a　という変数に3を、$b　という変数に７を代入して、
+echoを使って$a+$bの結果を表示してみましょう
+
+hello php!ec2-user:~/environment/php_practice $ 
+ec2-user:~/environment/php_practice $ 
+ec2-user:~/environment/php_practice $ a=3;
+ec2-user:~/environment/php_practice $ echo $a;
+3
+ec2-user:~/environment/php_practice $ b=7;
+ec2-user:~/environment/php_practice $ echo $b;
+7
+ec2-user:~/environment/php_practice $ 
+
+②$array_month という配列に1月〜12月の文字列を代入し、
+echoで8月を表示してみましょう
+
+ec2-user:~/environment $ array_month=[１月,２月,３月,４月,５月,６月,７月,８月,９月,１０月,１１月,１２月];
+ec2-user:~/environment $ echo $array_month[9];
+[１月,２月,３月,４月,５月,６月,７月,８月,９月,１０月,１１月,１２月][9]
+ec2-user:~/environment $ 
+
+
+③$hello　という変数に　”Hello, “を $name という変数にあなたの名前を、　
+$world という変数に　”‘s World!” を代入して、各変数を連結させて “Hello, あなたの名前’s World!” と表示してみましょう
+
+ec2-user:~/environment/php_practice $ echo $hello.$neme.$world;
+”Hello,“.awakura.”‘sWorld.”
+
+
+④$tech_boostに “tech “という文字列が代入されています。
+複合演算を使って、echo $tech_boostと実行すると「tech boost」と表示されるように実装してみましょう
+
+ec2-user:~/environment $ tech_boot="techboost";
+ec2-user:~/environment $ echo $tech_boot
+techboost
+
+⑤応用】次のプログラムにはバグがあります。
+どこにバグが有るか調べて修正してみましょう(バグは一つとは限りません。)
+
+$2018_calendar = {
+  "January" => "1月",
+  "February" => "2月"、
+  "March" => "3月",
+  "April" => "4月",
+  "May" => "5月",
+  "June" = "6月",
+  "July" => "7月",
+  "August" => "8月",
+  "September" => "9月",
+  "October" => "10月",
+  "November" => "11月",
+  "December" => "12月"
+};
+
+// 12月を表示する
+echo $2018_calendar[December];
+
