@@ -1,0 +1,8 @@
+.class{
+  font-size: 200%;
+}
+
+.class{
+        float: left;
+        width: 200px;
+    }
